@@ -12,34 +12,54 @@ import java.util.Queue;
  * 解题思路:注意cat,dog,总队列更新问题
  * */
 
-//题目基类
-// --start--
-class Pet{
-    private String type;
-
-    public Pet(String type) {
-        this.type = type;
-    }
-
-    public String getPetType(){
-        return this.type;
-    }
-}
-
-class Dog extends Pet{
-    public Dog() {
-        super("dog");
-    }
-}
-
-class Cat extends Pet{
-    public Cat(){
-        super("cat");
-    }
-}
-// --end--
-
 public class Demo04 {
+
+    public static class Pet{
+        private String type;
+
+        public Pet(String type) {
+            this.type = type;
+        }
+
+        public String getPetType(){
+            return this.type;
+        }
+    }
+
+    public static class Dog extends Pet{
+        public Dog() {
+            super("dog");
+        }
+    }
+
+    public static class Cat extends Pet{
+        public Cat(){
+            super("cat");
+        }
+    }
+
+    /**先定义一个新类能记录入队时间*/
+    public static class PetEnterQueue{
+        private Pet pet;
+        private long count;
+
+        public PetEnterQueue(Pet pet, long count) {
+            this.pet = pet;
+            this.count = count;
+        }
+
+        public Pet getPet() {
+            return this.pet;
+        }
+
+        public long getCount() {
+            return this.count;
+        }
+
+        public String getEnterPetType() {
+            return this.pet.getPetType();
+        }
+    }
 
     private Queue<PetEnterQueue> dogQueue;
     private Queue<PetEnterQueue> catQueue;
@@ -102,29 +122,6 @@ public class Demo04 {
 
     public boolean isCatEmpty() {
         return this.catQueue.isEmpty();
-    }
-}
-
-/**先定义一个新类能记录入队时间*/
-class PetEnterQueue{
-    private Pet pet;
-    private long count;
-
-    public PetEnterQueue(Pet pet, long count) {
-        this.pet = pet;
-        this.count = count;
-    }
-
-    public Pet getPet() {
-        return this.pet;
-    }
-
-    public long getCount() {
-        return this.count;
-    }
-
-    public String getEnterPetType() {
-        return this.pet.getPetType();
     }
 }
 

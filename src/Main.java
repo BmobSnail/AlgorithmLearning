@@ -1,3 +1,4 @@
+import part_1.Demo04;
 import part_2.*;
 
 public class Main {
@@ -45,12 +46,12 @@ public class Main {
 
 
         //猫狗队列
-        /*part_1.Demo04 demo04 = new part_1.Demo04();
-        demo04.add(new part_1.Dog());
-        demo04.add(new part_1.Cat());
-        demo04.add(new part_1.Cat());
-        demo04.add(new part_1.Cat());
-        demo04.add(new part_1.Dog());
+       /* Demo04 demo04 = new Demo04();
+        demo04.add(new Demo04.Cat());
+        demo04.add(new Demo04.Cat());
+        demo04.add(new Demo04.Cat());
+        demo04.add(new Demo04.Cat());
+        demo04.add(new Demo04.Dog());
         System.out.println("The queue is Empty:"+demo04.isEmpty());
         while (!demo04.isEmpty())
             System.out.println("part_1.Pet:"+demo04.pollAll().getPetType());
@@ -77,8 +78,9 @@ public class Main {
 
 
         //用栈求解Hanoi问题
-       /* part_1.Demo06 demo06 = new part_1.Demo06();
+        /*part_1.Demo06 demo06 = new part_1.Demo06();
         int count = demo06.hanoiProblem(5,"left","mid","right");
+//        int count = demo06.hanoiProblemByRecursion(5,"left","mid","right");
         System.out.println("\nIt will move "+count+" steps");*/
 
 
@@ -228,5 +230,22 @@ public class Main {
         }*/
 
 
+        //复制随机指针节点得链表
+        //看不懂,所以不会举例应用
+
+
+        //两个单链相加生成新链表
+        /*Demo20 demo20 = new Demo20();
+        Demo20.Node node1 = new Demo20.Node(9);
+        node1.next = new Demo20.Node(3);
+        node1.next.next = new Demo20.Node(7);
+        Demo20.Node node2 = new Demo20.Node(6);
+        node2.next = new Demo20.Node(3);
+//        Demo20.Node total = demo20.addList1(node1,node2);
+        Demo20.Node total = demo20.addList2(node1,node2);
+        while (total != null) {
+            System.out.println(total.value);
+            total = total.next;
+        }*/
     }
 }
