@@ -247,5 +247,22 @@ public class Main {
             System.out.println(total.value);
             total = total.next;
         }*/
+
+
+        //将单链表的每k个节点之间逆序
+        /*Demo22 demo22 = new Demo22();
+        Demo22.Node node = new Demo22.Node(1);
+        node.next = new Demo22.Node(2);
+        node.next.next = new Demo22.Node(3);
+        node.next.next.next = new Demo22.Node(4);
+        node.next.next.next.next = new Demo22.Node(5);
+        node.next.next.next.next.next = new Demo22.Node(6);
+        node.next.next.next.next.next.next = new Demo22.Node(7);
+        node.next.next.next.next.next.next.next = new Demo22.Node(8);
+        node = demo22.reverseKNode1(node,3);
+        while (node != null) {
+            System.out.println(node.value);
+            node = node.next;
+        }*/
     }
 }
