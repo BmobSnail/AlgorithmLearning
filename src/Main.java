@@ -264,5 +264,36 @@ public class Main {
             System.out.println(node.value);
             node = node.next;
         }*/
+
+
+        //删除单链表重复值得节点
+        /*Demo23 demo23 = new Demo23();
+        Demo23.Node node = new Demo23.Node(1);
+        node.next = new Demo23.Node(2);
+        node.next.next = new Demo23.Node(3);
+        node.next.next.next = new Demo23.Node(3);
+        node.next.next.next.next = new Demo23.Node(4);
+        node.next.next.next.next.next = new Demo23.Node(4);
+        node.next.next.next.next.next.next = new Demo23.Node(2);
+        node.next.next.next.next.next.next.next = new Demo23.Node(2);
+        node.next.next.next.next.next.next.next.next = new Demo23.Node(1);
+        demo23.removeRep2(node);
+        while (node != null) {
+            System.out.println(node.value);
+            node = node.next;
+        }*/
+
+
+        //在单链表中删除指定值得节点
+        /*Demo24 demo24 = new Demo24();
+        Demo24.Node node = new Demo24.Node(1);
+        node.next = new Demo24.Node(2);
+        node.next.next = new Demo24.Node(3);
+        node.next.next.next = new Demo24.Node(4);
+        node = demo24.removeValue2(node,3);
+        while (node != null) {
+            System.out.println(node.value);
+            node = node.next;
+        }*/
     }
 }
