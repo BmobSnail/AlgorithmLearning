@@ -295,5 +295,33 @@ public class Main {
             System.out.println(node.value);
             node = node.next;
         }*/
+
+
+        //将搜索二叉树转换成双向链表
+        /*Demo25 demo25 = new Demo25();
+        Demo25.Node node = new Demo25.Node(6);
+        node.left = new Demo25.Node(4);
+        node.left.left = new Demo25.Node(2);
+        node.left.right = new Demo25.Node(5);
+        node.left.left.left = new Demo25.Node(1);
+        node.left.left.right = new Demo25.Node(3);
+        node.right = new Demo25.Node(7);
+        node.right.right = new Demo25.Node(9);
+        node.right.right.left = new Demo25.Node(8);
+        node = demo25.convert1(node);*/
+
+
+        //单链表的选择排序
+        /*Demo26 demo26 = new Demo26();
+        Demo26.Node node = new Demo26.Node(2);
+        node.next = new Demo26.Node(1);
+        node.next.next = new Demo26.Node(3);
+        node.next.next.next = new Demo26.Node(7);
+        node.next.next.next.next = new Demo26.Node(5);
+        node = demo26.selectionSort(node);
+        while (node != null) {
+            System.out.println(node.value);
+            node = node.next;
+        }*/
     }
 }
