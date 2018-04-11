@@ -323,5 +323,33 @@ public class Main {
             System.out.println(node.value);
             node = node.next;
         }*/
+
+
+        //一种怪异的删除节点方式
+        /*Demo27 demo27 = new Demo27();
+        Demo27.Node node = new Demo27.Node(1);
+        node.next = new Demo27.Node(2);
+        node.next.next = new Demo27.Node(3);
+        node.next.next.next = new Demo27.Node(4);
+        node.next.next.next.next = new Demo27.Node(5);
+        demo27.removeNodeWired(node.next.next);
+        while (node != null) {
+            System.out.println(node.value);
+            node = node.next;
+        }*/
+
+
+        //向有序环形单链表中插入新节点
+        /*Demo28 demo28 = new Demo28();
+        Demo28.Node node = new Demo28.Node(1);
+        node.next = new Demo28.Node(3);
+        node.next.next = new Demo28.Node(5);
+        node.next.next.next = new Demo28.Node(8);
+        node.next.next.next.next = node;
+        node = demo28.insertNode(node,4);
+        while (node != null) {
+            System.out.println(node.value);
+            node = node.next;
+        }*/
     }
 }
