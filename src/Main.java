@@ -351,5 +351,35 @@ public class Main {
             System.out.println(node.value);
             node = node.next;
         }*/
+
+
+        //合并两个有序单链表
+        /*Demo29 demo29 = new Demo29();
+        Demo29.Node head1 = new Demo29.Node(1);
+        head1.next = new Demo29.Node(3);
+        head1.next.next = new Demo29.Node(7);
+        Demo29.Node head2 = new Demo29.Node(2);
+        head2.next = new Demo29.Node(3);
+        head2.next.next = new Demo29.Node(4);
+        Demo29.Node node = demo29.merge(head1,head2);
+        while (node != null) {
+            System.out.println(node.value);
+            node = node.next;
+        }*/
+
+
+        //按照左右半区的方式重组单链表
+        /*Demo30 demo30 = new Demo30();
+        Demo30.Node head = new Demo30.Node(1);
+        head.next = new Demo30.Node(2);
+        head.next.next = new Demo30.Node(3);
+        head.next.next.next = new Demo30.Node(4);
+        head.next.next.next.next = new Demo30.Node(5);
+        head.next.next.next.next.next = new Demo30.Node(6);
+        demo30.retocate(head);
+        while (head != null) {
+            System.out.println(head.value);
+            head = head.next;
+        }*/
     }
 }
