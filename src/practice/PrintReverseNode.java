@@ -1,7 +1,12 @@
 package practice;
 
-import java.util.ArrayList;
-
+/**
+ * 剑指offer
+ * 反转链表
+ *
+ * 题目描述
+ * 输入一个链表，反转链表后，输出链表的所有元素
+ * */
 public class PrintReverseNode {
 
     public static class ListNode{
@@ -21,19 +26,16 @@ public class PrintReverseNode {
         printListFromTailToHead(node);
     }
 
-    public static ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
-        ArrayList<Integer> mData = new ArrayList<>();
+    private static void printListFromTailToHead(ListNode listNode) {
         listNode = reverseNode(listNode);
         while (listNode != null) {
             int value = listNode.value;
             System.out.println(value);
-            mData.add(value);
             listNode = listNode.next;
         }
-        return mData;
     }
 
-    public static ListNode reverseNode(ListNode node){
+    private static ListNode reverseNode(ListNode node){
         ListNode pre = null;
         ListNode cur = null;
         while (node != null) {
