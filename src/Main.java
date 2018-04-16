@@ -1,5 +1,7 @@
 import part_1.Demo04;
 import part_2.*;
+import part_3.Demo31;
+import part_3.Demo32;
 
 public class Main {
 
@@ -381,5 +383,44 @@ public class Main {
             System.out.println(head.value);
             head = head.next;
         }*/
+
+
+        //先序'中序'后序遍历二叉树
+        /*Demo31 demo31 = new Demo31();
+        Demo31.Node node = new Demo31.Node(1);
+        node.left = new Demo31.Node(2);
+        node.right = new Demo31.Node(3);
+        node.left.left = new Demo31.Node(4);
+        node.left.right = new Demo31.Node(5);
+        node.right.left = new Demo31.Node(6);
+        node.right.right = new Demo31.Node(7);
+        demo31.preOrderUnRecur(node);
+        System.out.println();
+        demo31.inOrderUnRecur(node);
+        System.out.println();
+        demo31.posOrderUnRecur(node);*/
+
+
+        //打印二叉树的边界节点
+        Demo32 demo32 = new Demo32();
+        Demo32.Node node = new Demo32.Node(1);
+        node.left = new Demo32.Node(2);
+        node.right = new Demo32.Node(3);
+        node.left.right = new Demo32.Node(4);
+        node.left.right.left = new Demo32.Node(7);
+        node.left.right.right = new Demo32.Node(8);
+        node.left.right.right.right = new Demo32.Node(11);
+        node.left.right.right.right.left = new Demo32.Node(13);
+        node.left.right.right.right.right = new Demo32.Node(14);
+        node.right.left = new Demo32.Node(5);
+        node.right.right = new Demo32.Node(6);
+        node.right.left.left = new Demo32.Node(9);
+        node.right.left.right = new Demo32.Node(10);
+        node.right.left.left.left = new Demo32.Node(12);
+        node.right.left.left.left.left = new Demo32.Node(15);
+        node.right.left.left.left.right = new Demo32.Node(16);
+        demo32.printEdge1(node);
+        System.out.println();
+        demo32.printEdge2(node);
     }
 }
