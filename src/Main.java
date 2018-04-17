@@ -2,6 +2,8 @@ import part_1.Demo04;
 import part_2.*;
 import part_3.Demo31;
 import part_3.Demo32;
+import part_3.Demo33;
+import part_3.Demo34;
 
 public class Main {
 
@@ -402,7 +404,7 @@ public class Main {
 
 
         //打印二叉树的边界节点
-        Demo32 demo32 = new Demo32();
+        /*Demo32 demo32 = new Demo32();
         Demo32.Node node = new Demo32.Node(1);
         node.left = new Demo32.Node(2);
         node.right = new Demo32.Node(3);
@@ -421,6 +423,30 @@ public class Main {
         node.right.left.left.left.right = new Demo32.Node(16);
         demo32.printEdge1(node);
         System.out.println();
-        demo32.printEdge2(node);
+        demo32.printEdge2(node);*/
+
+
+        //如何较为直观地打印二叉树
+        /*Demo33 demo33 = new Demo33();
+        Demo33.Node node = new Demo33.Node(1);
+        node.left = new Demo33.Node(2);
+        node.right = new Demo33.Node(3);
+        node.left.left = new Demo33.Node(4);
+        node.left.left.right = new Demo33.Node(7);
+        node.right.left = new Demo33.Node(5);
+        node.right.right = new Demo33.Node(6);
+        demo33.printTree(node);*/
+
+
+        //二叉树得序列化和反序列化
+        /*Demo34 demo34 = new Demo34();
+        Demo34.Node node = new Demo34.Node(1);
+        node.left = new Demo34.Node(2);
+        node.left.left = new Demo34.Node(4);
+        node.right = new Demo34.Node(3);
+        node.right.right = new Demo34.Node(5);
+        System.out.println(demo34.serialByPre(node));
+        System.out.println();
+        System.out.println(demo34.serialByLevel(node));*/
     }
 }
