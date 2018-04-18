@@ -1,9 +1,6 @@
 import part_1.Demo04;
 import part_2.*;
-import part_3.Demo31;
-import part_3.Demo32;
-import part_3.Demo33;
-import part_3.Demo34;
+import part_3.*;
 
 public class Main {
 
@@ -448,5 +445,34 @@ public class Main {
         System.out.println(demo34.serialByPre(node));
         System.out.println();
         System.out.println(demo34.serialByLevel(node));*/
+
+
+        //神级遍历二叉树
+        /*Demo35 demo35 = new Demo35();
+        Demo35.Node node = new Demo35.Node(4);
+        node.left = new Demo35.Node(2);
+        node.left.left = new Demo35.Node(1);
+        node.left.right = new Demo35.Node(3);
+        node.right = new Demo35.Node(6);
+        node.right.left = new Demo35.Node(5);
+        node.right.right = new Demo35.Node(7);
+        demo35.morrisIn(node);
+        demo35.morrisPre(node);
+        demo35.morrisPos(node);*/
+
+
+        //在二叉树中找到累加和为指定值的最长路径长度
+        /*Demo36 demo36 = new Demo36();
+        Demo36.Node node = new Demo36.Node(-3);
+        node.left = new Demo36.Node(3);
+        node.left.left = new Demo36.Node(1);
+        node.left.right = new Demo36.Node(0);
+        node.left.right.left = new Demo36.Node(1);
+        node.left.right.right = new Demo36.Node(6);
+        node.right = new Demo36.Node(-9);
+        node.right.left = new Demo36.Node(2);
+        node.right.right = new Demo36.Node(1);
+        int step = demo36.getMaxLength(node,-9);
+        System.out.println("need step:"+step);*/
     }
 }
