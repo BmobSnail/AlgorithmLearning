@@ -474,5 +474,26 @@ public class Main {
         node.right.right = new Demo36.Node(1);
         int step = demo36.getMaxLength(node,-9);
         System.out.println("need step:"+step);*/
+
+
+        //在二叉树中找到最大搜索二叉子树
+        /*Demo37 demo37 = new Demo37();
+        Demo37.Node node = new Demo37.Node(6);
+        node.left = new Demo37.Node(1);
+        node.left.left = new Demo37.Node(0);
+        node.left.right = new Demo37.Node(3);
+        node.right = new Demo37.Node(12);
+        node.right.left = new Demo37.Node(10);
+        node.right.right = new Demo37.Node(13);
+        node.right.left.left = new Demo37.Node(4);
+        node.right.left.right = new Demo37.Node(14);
+        node.right.left.left.left = new Demo37.Node(2);
+        node.right.left.left.right = new Demo37.Node(5);
+        node.right.left.right.left = new Demo37.Node(11);
+        node.right.left.right.right = new Demo37.Node(15);
+        node.right.right.left = new Demo37.Node(20);
+        node.right.right.right = new Demo37.Node(16);
+        node = demo37.biggestSubBST(node);
+        System.out.println(node.value);*/
     }
 }
