@@ -29,13 +29,13 @@ public class Demo38 {
     }
 
     private int maxTopo(Node h, Node n) {
-        if (h != null && n != null && isBSTNote(h, n.right,n.value)) {
+        if (h != null && n != null && isBSTNote(h, n, n.value)) {
             return maxTopo(h,n.left) + maxTopo(h,n.right) + 1;
         }
         return 0;
     }
 
-    public boolean isBSTNote(Node h, Node n, int value) {
+    private boolean isBSTNote(Node h, Node n, int value) {
         if (h == null)
             return false;
         if (h == n)

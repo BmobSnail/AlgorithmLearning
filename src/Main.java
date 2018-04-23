@@ -495,5 +495,41 @@ public class Main {
         node.right.right.right = new Demo37.Node(16);
         node = demo37.biggestSubBST(node);
         System.out.println(node.value);*/
+
+
+        //找到二叉树中符合搜索二叉树条件的最大拓扑结构
+      /*  Demo38 demo38 = new Demo38();
+        Demo38.Node node = new Demo38.Node(6);
+        node.left = new Demo38.Node(1);
+        node.left.left = new Demo38.Node(0);
+        node.left.right = new Demo38.Node(3);
+        node.right = new Demo38.Node(12);
+        node.right.left = new Demo38.Node(10);
+        node.right.left.left = new Demo38.Node(4);
+        node.right.left.left.left = new Demo38.Node(2);
+        node.right.left.left.right = new Demo38.Node(5);
+        node.right.left.right = new Demo38.Node(14);
+        node.right.left.right.left = new Demo38.Node(11);
+        node.right.left.right.right = new Demo38.Node(15);
+        node.right.right = new Demo38.Node(13);
+        node.right.right.left = new Demo38.Node(20);
+        node.right.right.right = new Demo38.Node(16);
+        int count = demo38.bstTopoSize1(node);
+        System.out.println("step:"+count);*/
+
+
+        //按层和ZipZag打印二叉树
+        Demo39 demo39 = new Demo39();
+        Demo39.Node node = new Demo39.Node(1);
+        node.left = new Demo39.Node(2);
+        node.right = new Demo39.Node(3);
+        node.left.left = new Demo39.Node(4);
+        node.right.left = new Demo39.Node(5);
+        node.right.right = new Demo39.Node(6);
+        node.right.left.left = new Demo39.Node(7);
+        node.right.left.right = new Demo39.Node(8);
+        demo39.printByLevel(node);
+        System.out.println();
+        demo39.printByZigZag(node);
     }
 }
