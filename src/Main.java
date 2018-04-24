@@ -519,7 +519,7 @@ public class Main {
 
 
         //按层和ZipZag打印二叉树
-        Demo39 demo39 = new Demo39();
+        /*Demo39 demo39 = new Demo39();
         Demo39.Node node = new Demo39.Node(1);
         node.left = new Demo39.Node(2);
         node.right = new Demo39.Node(3);
@@ -530,6 +530,20 @@ public class Main {
         node.right.left.right = new Demo39.Node(8);
         demo39.printByLevel(node);
         System.out.println();
-        demo39.printByZigZag(node);
+        demo39.printByZigZag(node);*/
+
+
+        //调整搜索二叉树中两个错误的节点
+        /*Demo40 demo40 = new Demo40();
+        Demo40.Node node =  new Demo40.Node(3);
+        node.left = new Demo40.Node(2);
+        node.right = new Demo40.Node(4);
+        node.left.left = new Demo40.Node(1);
+        node.right.left = new Demo40.Node(5);
+        node.right.right = new Demo40.Node(6);
+        Demo40.Node[] errs = demo40.getTwoErrorNodes(node);
+        for (Demo40.Node err : errs) {
+            System.out.println(err.value);
+        }*/
     }
 }
