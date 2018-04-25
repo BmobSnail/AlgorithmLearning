@@ -545,5 +545,43 @@ public class Main {
         for (Demo40.Node err : errs) {
             System.out.println(err.value);
         }*/
+
+
+        //判断t1树是否包含t2树全部的拓扑结构
+        /*Demo41 demo41 = new Demo41();
+        Demo41.Node t1 = new Demo41.Node(1);
+        t1.left = new Demo41.Node(2);
+        t1.left.left = new Demo41.Node(4);
+        t1.left.left.left = new Demo41.Node(8);
+        t1.left.left.right = new Demo41.Node(9);
+        t1.left.right = new Demo41.Node(5);
+        t1.left.right.left = new Demo41.Node(10);
+        t1.right = new Demo41.Node(3);
+        t1.right.left = new Demo41.Node(6);
+        t1.right.right = new Demo41.Node(7);
+        Demo41.Node t2 = new Demo41.Node(2);
+        t2.left = new Demo41.Node(4);
+        t2.left.left = new Demo41.Node(8);
+        t2.right = new Demo41.Node(5);
+        System.out.println(demo41.contains(t1,t2));*/
+
+
+        //判断t1树中是否有与t2树拓扑结构完全相同的子树
+        /*Demo42 demo42 = new Demo42();
+        Demo42.Node t1 = new Demo42.Node(1);
+        t1.left = new Demo42.Node(2);
+        t1.left.left = new Demo42.Node(4);
+        t1.left.left.right = new Demo42.Node(8);
+        t1.left.right = new Demo42.Node(5);
+        t1.left.right.left = new Demo42.Node(9);
+        t1.right = new Demo42.Node(3);
+        t1.right.left = new Demo42.Node(6);
+        t1.right.right = new Demo42.Node(7);
+        Demo42.Node t2 = new Demo42.Node(2);
+        t2.left = new Demo42.Node(4);
+        t2.left.right = new Demo42.Node(8);
+        t2.right = new Demo42.Node(5);
+//        t2.right.left = new Demo42.Node(9);
+        System.out.println(demo42.isSubTree(t1,t2));*/
     }
 }
