@@ -583,5 +583,17 @@ public class Main {
         t2.right = new Demo42.Node(5);
 //        t2.right.left = new Demo42.Node(9);
         System.out.println(demo42.isSubTree(t1,t2));*/
+
+
+        //判断二叉树是否为平衡二叉树
+        /*Demo43 demo43 = new Demo43();
+        Demo43.Node node = new Demo43.Node(1);
+        node.left =  new Demo43.Node(2);
+        node.left.left = new Demo43.Node(3);
+        node.left.right = new Demo43.Node(4);
+        node.right = new Demo43.Node(7);
+        node.right.left = new Demo43.Node(8);
+        node.right.right = new Demo43.Node(9);
+        System.out.println(demo43.isBalance(node));*/
     }
 }
