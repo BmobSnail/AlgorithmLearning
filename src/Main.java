@@ -595,5 +595,17 @@ public class Main {
         node.right.left = new Demo43.Node(8);
         node.right.right = new Demo43.Node(9);
         System.out.println(demo43.isBalance(node));*/
+
+        //判断一棵二叉树是否为搜索二叉树和完全二叉树
+        /*Demo45 demo45 = new Demo45();
+        Demo45.Node node = new Demo45.Node(1);
+        node.left =  new Demo45.Node(2);
+        node.left.left = new Demo45.Node(3);
+        node.left.right = new Demo45.Node(4);
+        node.right = new Demo45.Node(7);
+        node.right.left = new Demo45.Node(8);
+        node.right.right = new Demo45.Node(9);
+        System.out.println("是否为搜索二叉树:"+demo45.isBST(node));
+        System.out.println("是否为完全二叉树:"+demo45.isCBT(node));*/
     }
 }
