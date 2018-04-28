@@ -596,6 +596,7 @@ public class Main {
         node.right.right = new Demo43.Node(9);
         System.out.println(demo43.isBalance(node));*/
 
+
         //判断一棵二叉树是否为搜索二叉树和完全二叉树
         /*Demo45 demo45 = new Demo45();
         Demo45.Node node = new Demo45.Node(1);
@@ -607,5 +608,32 @@ public class Main {
         node.right.right = new Demo45.Node(9);
         System.out.println("是否为搜索二叉树:"+demo45.isBST(node));
         System.out.println("是否为完全二叉树:"+demo45.isCBT(node));*/
+
+
+        //在二叉树中找到一个节点的后继节点
+        /*Demo47 demo47 = new Demo47();
+        Demo47.Node node = new Demo47.Node(6);
+        node.left = new Demo47.Node(3);
+        node.left.parent = node;
+        node.left.left = new Demo47.Node(1);
+        node.left.left.parent = node.left;
+        node.left.right = new Demo47.Node(4);
+        node.left.right.parent = node.left;
+        node.left.left.right = new Demo47.Node(2);
+        node.left.left.right.parent = node.left.left;
+        node.left.right.right = new Demo47.Node(5);
+        node.left.right.right.parent = node.left.right;
+        node.right = new Demo47.Node(9);
+        node.right.parent = node;
+        node.right.left = new Demo47.Node(8);
+        node.right.left.parent = node.right;
+        node.right.right = new Demo47.Node(10);
+        node.right.right.parent = node.right;
+        node.right.left.left = new Demo47.Node(7);
+        node.right.left.left.parent = node.right.left;
+        System.out.println(demo47.getNextNode(node.left.right).value);*/
+
+
+
     }
 }
