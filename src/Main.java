@@ -634,6 +634,31 @@ public class Main {
         System.out.println(demo47.getNextNode(node.left.right).value);*/
 
 
-
+        //Tarjan算法与并查集解决二叉树节点间最近公共祖先得批量查询问题
+        /*Demo49 demo49 = new Demo49();
+        Demo49.Node node = new Demo49.Node(1);
+        node.left = new Demo49.Node(2);
+        node.left.left = new Demo49.Node(4);
+        node.left.right = new Demo49.Node(5);
+        node.left.right.left = new Demo49.Node(7);
+        node.left.right.right = new Demo49.Node(8);
+        node.right = new Demo49.Node(3);
+        node.right.right = new Demo49.Node(6);
+        node.right.right.left = new Demo49.Node(9);
+        Demo49.Query[] queries = new Demo49.Query[7];
+        queries[0] = new Demo49.Query(node.left.left,node.left.right.left);
+        queries[1] = new Demo49.Query(node.left.right.left,node.right.right.left);
+        queries[2] = new Demo49.Query(node.left.right.right,node.right.right.left);
+        queries[3] = new Demo49.Query(node.right.right.left,node.right);
+        queries[4] = new Demo49.Query(node.right.right,node.right.right);
+        queries[5] = new Demo49.Query(null,node.left.right);
+        queries[6] = new Demo49.Query(null,null);
+        Demo49.Node[] fathers = demo49.tarJanQuery(node,queries);
+        for (Demo49.Node father : fathers) {
+            if (father == null)
+                System.out.println("null");
+            else
+                System.out.println(father.value);
+        }*/
     }
 }
