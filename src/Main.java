@@ -660,5 +660,17 @@ public class Main {
             else
                 System.out.println(father.value);
         }*/
+
+
+        //二叉树节点间最大距离
+        Demo50 demo50 = new Demo50();
+        Demo50.Node node = new Demo50.Node(1);
+        node.left = new Demo50.Node(2);
+        node.left.left = new Demo50.Node(4);
+        node.left.right = new Demo50.Node(5);
+        node.right = new Demo50.Node(3);
+        node.right.left = new Demo50.Node(6);
+        node.right.right = new Demo50.Node(7);
+        System.out.println("step:"+demo50.maxDistance(node));
     }
 }
