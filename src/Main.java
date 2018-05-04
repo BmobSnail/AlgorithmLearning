@@ -663,7 +663,7 @@ public class Main {
 
 
         //二叉树节点间最大距离
-        Demo50 demo50 = new Demo50();
+        /*Demo50 demo50 = new Demo50();
         Demo50.Node node = new Demo50.Node(1);
         node.left = new Demo50.Node(2);
         node.left.left = new Demo50.Node(4);
@@ -671,6 +671,14 @@ public class Main {
         node.right = new Demo50.Node(3);
         node.right.left = new Demo50.Node(6);
         node.right.right = new Demo50.Node(7);
-        System.out.println("step:"+demo50.maxDistance(node));
+        System.out.println("step:"+demo50.maxDistance(node));*/
+
+
+        //通过先序和中序数组生成后序数组
+        /*Demo52 demo52 = new Demo52();
+        int[] pos = demo52.getPosArray(new int[]{1,2,4,5,3,6,7},new int[]{4,2,5,1,6,3,7});
+        for (int po : pos) {
+            System.out.print(po + ",");
+        }*/
     }
 }
