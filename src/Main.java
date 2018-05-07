@@ -680,5 +680,17 @@ public class Main {
         for (int po : pos) {
             System.out.print(po + ",");
         }*/
+
+
+        //统计二叉树的节点数
+        /*Demo54 demo50 = new Demo54();
+        Demo54.Node node = new Demo54.Node(1);
+        node.left = new Demo54.Node(2);
+        node.left.left = new Demo54.Node(4);
+        node.left.right = new Demo54.Node(5);
+        node.right = new Demo54.Node(3);
+        node.right.left = new Demo54.Node(6);
+        node.right.right = new Demo54.Node(7);
+        System.out.println("All node:"+demo50.nodeNum(node));*/
     }
 }
