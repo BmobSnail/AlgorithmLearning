@@ -1,6 +1,7 @@
 import part_1.Demo04;
 import part_2.*;
 import part_3.*;
+import part_4.Demo55;
 
 public class Main {
 
@@ -692,5 +693,12 @@ public class Main {
         node.right.left = new Demo54.Node(6);
         node.right.right = new Demo54.Node(7);
         System.out.println("All node:"+demo50.nodeNum(node));*/
+
+
+        //斐波那契系列问题
+        Demo55 demo55 = new Demo55();
+        System.out.println("斐波那契 第4项："+demo55.f3(4));
+        System.out.println("牛生小母牛 第3代："+demo55.s3(3));
+        System.out.println("跨台阶 第8级："+demo55.c3(8));
     }
 }
