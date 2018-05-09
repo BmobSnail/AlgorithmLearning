@@ -2,6 +2,7 @@ import part_1.Demo04;
 import part_2.*;
 import part_3.*;
 import part_4.Demo55;
+import part_4.Demo56;
 
 public class Main {
 
@@ -696,9 +697,18 @@ public class Main {
 
 
         //斐波那契系列问题
-        Demo55 demo55 = new Demo55();
+        /*Demo55 demo55 = new Demo55();
         System.out.println("斐波那契 第4项："+demo55.f3(4));
         System.out.println("牛生小母牛 第3代："+demo55.s3(3));
-        System.out.println("跨台阶 第8级："+demo55.c3(8));
+        System.out.println("跨台阶 第8级："+demo55.c3(8));*/
+
+
+        //矩阵最小路径和
+        /*Demo56 demo56 = new Demo56();
+        int[][] m = {{1,3,5,9},
+                    {8,1,3,4},
+                    {5,0,6,1},
+                    {8,8,4,0}};
+        System.out.println("sum:"+demo56.minPathSum2(m));*/
     }
 }
