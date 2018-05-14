@@ -4,6 +4,7 @@ import part_3.*;
 import part_4.Demo55;
 import part_4.Demo56;
 import part_4.Demo57;
+import part_4.Demo59;
 
 public class Main {
 
@@ -716,5 +717,13 @@ public class Main {
         //最少货币数
         /*Demo57 demo57 = new Demo57();
         System.out.println("less:"+demo57.minCoins2(new int[] {5,2,3},20));*/
+
+
+        //最大递增子序列
+        Demo59 demo59 = new Demo59();
+        int[] arr = demo59.list1(new int[]{2,1,5,3,6,4,8,9,7});
+        for (int anArr : arr) {
+            System.out.print(anArr + ", ");
+        }
     }
 }
