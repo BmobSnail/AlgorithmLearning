@@ -1,10 +1,7 @@
 import part_1.Demo04;
 import part_2.*;
 import part_3.*;
-import part_4.Demo55;
-import part_4.Demo56;
-import part_4.Demo57;
-import part_4.Demo59;
+import part_4.*;
 
 public class Main {
 
@@ -720,10 +717,23 @@ public class Main {
 
 
         //最大递增子序列
-        Demo59 demo59 = new Demo59();
+        /*Demo59 demo59 = new Demo59();
         int[] arr = demo59.list1(new int[]{2,1,5,3,6,4,8,9,7});
         for (int anArr : arr) {
             System.out.print(anArr + ", ");
-        }
+        }*/
+
+
+        //汉诺塔问题
+        /*Demo60 demo60 = new Demo60();
+        demo60.hanoi(4);
+        System.out.println(demo60.step1(new int[]{3,3,2,1}));*/
+
+
+        //最长公共子序列问题
+        Demo61 demo61 = new Demo61();
+        String str1="1A2C3D4B56";
+        String str2="B1D23CA45B6A";
+        System.out.println(demo61.lcse(str1,str2));
     }
 }
