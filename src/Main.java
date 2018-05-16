@@ -731,9 +731,16 @@ public class Main {
 
 
         //最长公共子序列问题
-        Demo61 demo61 = new Demo61();
+        /*Demo61 demo61 = new Demo61();
         String str1="1A2C3D4B56";
         String str2="B1D23CA45B6A";
-        System.out.println(demo61.lcse(str1,str2));
+        System.out.println(demo61.lcse(str1,str2));*/
+
+
+        //最长公共子串
+        /*Demo62 demo62 = new Demo62();
+        String str1="1AV2345CD";
+        String str2="123456EF";
+        System.out.println(demo62.lcst2(str1,str2));*/
     }
 }
