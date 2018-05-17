@@ -742,5 +742,12 @@ public class Main {
         String str1="1AV2345CD";
         String str2="123456EF";
         System.out.println(demo62.lcst2(str1,str2));*/
+
+
+        //最小编辑代价
+        /*Demo63 demo63 = new Demo63();
+        String str1 = "abc";
+        String str2 = "adb";
+        System.out.println(demo63.minCost1(str1,str2,5,3,2));*/
     }
 }
