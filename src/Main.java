@@ -749,5 +749,12 @@ public class Main {
         String str1 = "abc";
         String str2 = "adb";
         System.out.println(demo63.minCost1(str1,str2,5,3,2));*/
+
+
+        //字符串交错组成
+        /*Demo64 demo64 = new Demo64();
+        String str1 = "AB";
+        String str2 = "12";
+        System.out.println(demo64.isCross2(str1,str2,"A1B2"));*/
     }
 }
