@@ -756,5 +756,16 @@ public class Main {
         String str1 = "AB";
         String str2 = "12";
         System.out.println(demo64.isCross2(str1,str2,"A1B2"));*/
+
+
+        //龙与地下城游戏问题
+        /*Demo65 demo65 = new Demo65();
+        int[][] m = {{-2,-3,3},{-5,-10,1},{0,30,-5}};
+        System.out.println("less HP:"+demo65.minHP2(m));*/
+
+
+        //数字字符串转换为字母组合的种数
+        /*Demo66 demo66 = new Demo66();
+        System.out.println("count:"+demo66.num2("1111"));*/
     }
 }
