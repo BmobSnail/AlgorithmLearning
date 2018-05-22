@@ -767,5 +767,10 @@ public class Main {
         //数字字符串转换为字母组合的种数
         /*Demo66 demo66 = new Demo66();
         System.out.println("count:"+demo66.num2("1111"));*/
+
+
+        //表达式得到期望结果的组成种数
+        /*Demo67 demo67 = new Demo67();
+        System.out.println("count:"+demo67.num1("1^0|0|1",false));*/
     }
 }
