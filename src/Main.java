@@ -772,5 +772,10 @@ public class Main {
         //表达式得到期望结果的组成种数
         /*Demo67 demo67 = new Demo67();
         System.out.println("count:"+demo67.num1("1^0|0|1",false));*/
+
+
+        //抽纸牌问题
+        Demo68 demo68 = new Demo68();
+        System.out.println(demo68.win2(new int[]{1,2,10,4}));
     }
 }
