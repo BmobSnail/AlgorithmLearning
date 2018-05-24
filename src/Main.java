@@ -775,7 +775,17 @@ public class Main {
 
 
         //抽纸牌问题
-        Demo68 demo68 = new Demo68();
-        System.out.println(demo68.win2(new int[]{1,2,10,4}));
+        /*Demo68 demo68 = new Demo68();
+        System.out.println(demo68.win2(new int[]{1,2,10,4}));*/
+
+
+        //跳跃游戏
+        /*Demo69 demo69 = new Demo69();
+        System.out.println(demo69.jump(new int[]{3,2,3,1,1,4}));*/
+
+
+        //数组中最长连续序列
+        /*Demo70 demo70 = new Demo70();
+        System.out.println(demo70.longestConsecutive(new int[]{100,4,200,1,3,2}));*/
     }
 }
