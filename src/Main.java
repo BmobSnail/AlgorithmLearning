@@ -787,5 +787,10 @@ public class Main {
         //数组中最长连续序列
         /*Demo70 demo70 = new Demo70();
         System.out.println(demo70.longestConsecutive(new int[]{100,4,200,1,3,2}));*/
+
+
+        //n皇后问题
+        /*Demo71 demo71 = new Demo71();
+        System.out.println("count:"+demo71.num2(8));*/
     }
 }
