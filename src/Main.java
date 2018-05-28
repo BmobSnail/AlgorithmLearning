@@ -2,6 +2,7 @@ import part_1.Demo04;
 import part_2.*;
 import part_3.*;
 import part_4.*;
+import part_5.Demo72;
 
 public class Main {
 
@@ -792,5 +793,10 @@ public class Main {
         //n皇后问题
         /*Demo71 demo71 = new Demo71();
         System.out.println("count:"+demo71.num2(8));*/
+
+
+        //判断两个字符串是否互为变形词
+        /*Demo72 demo72 = new Demo72();
+        System.out.println(demo72.isDeformation("123","2331"));*/
     }
 }
