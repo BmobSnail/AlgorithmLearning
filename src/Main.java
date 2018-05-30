@@ -3,6 +3,8 @@ import part_2.*;
 import part_3.*;
 import part_4.*;
 import part_5.Demo72;
+import part_5.Demo73;
+import part_5.Demo74;
 
 public class Main {
 
@@ -798,5 +800,16 @@ public class Main {
         //判断两个字符串是否互为变形词
         /*Demo72 demo72 = new Demo72();
         System.out.println(demo72.isDeformation("123","2331"));*/
+
+
+        //字符串子串数字的求和
+       /* Demo73 demo73 = new Demo73();
+        System.out.println("Sum="+demo73.numSun("A1CD2E33"));*/
+
+
+        //去掉字符串中连续出现的k个0字符
+        /*Demo74 demo74 = new Demo74();
+        System.out.println(demo74.removeKZeros("A00B",2));
+        System.out.println(demo74.removeKZeros("A0000B000",3));*/
     }
 }
