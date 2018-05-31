@@ -5,6 +5,7 @@ import part_4.*;
 import part_5.Demo72;
 import part_5.Demo73;
 import part_5.Demo74;
+import part_5.Demo75;
 
 public class Main {
 
@@ -811,5 +812,10 @@ public class Main {
         /*Demo74 demo74 = new Demo74();
         System.out.println(demo74.removeKZeros("A00B",2));
         System.out.println(demo74.removeKZeros("A0000B000",3));*/
+
+
+        //判断两个字符串是否互为旋转词
+        Demo75 demo75 = new Demo75();
+        System.out.println(demo75.isRotation("cdab","abcd"));
     }
 }
