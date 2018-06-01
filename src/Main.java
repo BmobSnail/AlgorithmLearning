@@ -2,10 +2,7 @@ import part_1.Demo04;
 import part_2.*;
 import part_3.*;
 import part_4.*;
-import part_5.Demo72;
-import part_5.Demo73;
-import part_5.Demo74;
-import part_5.Demo75;
+import part_5.*;
 
 public class Main {
 
@@ -815,7 +812,15 @@ public class Main {
 
 
         //判断两个字符串是否互为旋转词
-        Demo75 demo75 = new Demo75();
-        System.out.println(demo75.isRotation("cdab","abcd"));
+        /*Demo75 demo75 = new Demo75();
+        System.out.println(demo75.isRotation("cdab","abcd"));*/
+
+
+        //将整数字符串转成整数值
+        Demo76 demo76 = new Demo76();
+        String[] arr = {"123","023","A13","0","2147483647","2147483648","-123"};
+        for (String anArr : arr) {
+            System.out.println(demo76.convert(anArr));
+        }
     }
 }
