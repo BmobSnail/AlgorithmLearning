@@ -817,10 +817,17 @@ public class Main {
 
 
         //将整数字符串转成整数值
-        Demo76 demo76 = new Demo76();
+        /*Demo76 demo76 = new Demo76();
         String[] arr = {"123","023","A13","0","2147483647","2147483648","-123"};
         for (String anArr : arr) {
             System.out.println(demo76.convert(anArr));
-        }
+        }*/
+
+
+        //替换字符串中连续出现的指定字符串
+        Demo77 demo77 = new Demo77();
+        System.out.println(demo77.replace("123abc","abc","4567"));
+        System.out.println(demo77.replace("123","abc","456"));
+        System.out.println(demo77.replace("123abcabc","abc","X"));
     }
 }
