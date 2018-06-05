@@ -825,9 +825,15 @@ public class Main {
 
 
         //替换字符串中连续出现的指定字符串
-        Demo77 demo77 = new Demo77();
+        /*Demo77 demo77 = new Demo77();
         System.out.println(demo77.replace("123abc","abc","4567"));
         System.out.println(demo77.replace("123","abc","456"));
-        System.out.println(demo77.replace("123abcabc","abc","X"));
+        System.out.println(demo77.replace("123abcabc","abc","X"));*/
+
+
+        //统计字符串的字符
+        Demo78 demo78 = new Demo78();
+        System.out.println(demo78.getCountString("aaabbadddffc"));
+        System.out.println(demo78.getCharAt("a_1_b_100",50));
     }
 }
