@@ -832,8 +832,16 @@ public class Main {
 
 
         //统计字符串的字符
-        Demo78 demo78 = new Demo78();
+        /*Demo78 demo78 = new Demo78();
         System.out.println(demo78.getCountString("aaabbadddffc"));
-        System.out.println(demo78.getCharAt("a_1_b_100",50));
+        System.out.println(demo78.getCharAt("a_1_b_100",50));*/
+
+
+        //判断字符数组中是否每个字符都只出现一次
+        /*Demo79 demo79 = new Demo79();
+        char[] chas1 = new char[]{'a','b','c'};
+        char[] chas2 = new char[]{'1','2','1'};
+        System.out.println(demo79.isUnique2(chas1));
+        System.out.println(demo79.isUnique2(chas2));*/
     }
 }
