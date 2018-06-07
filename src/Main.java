@@ -843,5 +843,12 @@ public class Main {
         char[] chas2 = new char[]{'1','2','1'};
         System.out.println(demo79.isUnique2(chas1));
         System.out.println(demo79.isUnique2(chas2));*/
+
+
+        //在有序但含有空的数组中查找字符串
+        Demo80 demo80 = new Demo80();
+        System.out.println(demo80.getIndex(new String[]{null,"a",null,"a",null,"b",null,"c"},"a"));
+        System.out.println(demo80.getIndex(new String[]{null,"a",null,"a",null,"b",null,"c"},null));
+        System.out.println(demo80.getIndex(new String[]{null,"a",null,"a",null,"b",null,"c"},"d"));
     }
 }
