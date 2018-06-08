@@ -846,9 +846,19 @@ public class Main {
 
 
         //在有序但含有空的数组中查找字符串
-        Demo80 demo80 = new Demo80();
+       /*Demo80 demo80 = new Demo80();
         System.out.println(demo80.getIndex(new String[]{null,"a",null,"a",null,"b",null,"c"},"a"));
         System.out.println(demo80.getIndex(new String[]{null,"a",null,"a",null,"b",null,"c"},null));
-        System.out.println(demo80.getIndex(new String[]{null,"a",null,"a",null,"b",null,"c"},"d"));
+        System.out.println(demo80.getIndex(new String[]{null,"a",null,"a",null,"b",null,"c"},"d"));*/
+
+
+       //字符串的调整与替换
+        /*Demo81 demo81 = new Demo81();
+        char[] chars1 = {'a',' ','b',' ',' ','c'};
+        chars1 = demo81.replace(chars1);
+        System.out.println(chars1);
+        char[] chars2 = {'1','2','*','*','3','4','5'};
+        demo81.modify(chars2);
+        System.out.println(chars2);*/
     }
 }
