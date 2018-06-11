@@ -860,5 +860,15 @@ public class Main {
         char[] chars2 = {'1','2','*','*','3','4','5'};
         demo81.modify(chars2);
         System.out.println(chars2);*/
+
+
+        //翻转字符串
+        Demo82 demo82 = new Demo82();
+        char[] chars = "dog love pig".toCharArray();
+        demo82.rotateWord(chars);
+        System.out.println(chars);
+        char[] rotates = "ABCDE".toCharArray();
+        demo82.rotate1(rotates,3);
+        System.out.println(rotates);
     }
 }
