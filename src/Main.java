@@ -863,12 +863,18 @@ public class Main {
 
 
         //翻转字符串
-        Demo82 demo82 = new Demo82();
+        /*Demo82 demo82 = new Demo82();
         char[] chars = "dog love pig".toCharArray();
         demo82.rotateWord(chars);
         System.out.println(chars);
         char[] rotates = "ABCDE".toCharArray();
         demo82.rotate1(rotates,3);
-        System.out.println(rotates);
+        System.out.println(rotates);*/
+
+
+        //数组中两个字符串的最小距离
+        Demo83 demo83 = new Demo83();
+        System.out.println(demo83.minDistance(new String[]{"1","3","3","2","3","1"},"1","2"));
+        System.out.println(demo83.minDistance(new String[]{"CD"},"CD","AB"));
     }
 }
