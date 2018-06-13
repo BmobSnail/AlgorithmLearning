@@ -873,8 +873,14 @@ public class Main {
 
 
         //数组中两个字符串的最小距离
-        Demo83 demo83 = new Demo83();
+        /*Demo83 demo83 = new Demo83();
         System.out.println(demo83.minDistance(new String[]{"1","3","3","2","3","1"},"1","2"));
-        System.out.println(demo83.minDistance(new String[]{"CD"},"CD","AB"));
+        System.out.println(demo83.minDistance(new String[]{"CD"},"CD","AB"));*/
+
+
+        //添加最少字符使字符串整体都是回文字符串
+        Demo84 demo84 = new Demo84();
+        System.out.println(demo84.getPalindrome1("AB"));
+        System.out.println(demo84.getPalindrome2("A1B21C","121"));
     }
 }
