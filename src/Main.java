@@ -879,8 +879,21 @@ public class Main {
 
 
         //添加最少字符使字符串整体都是回文字符串
-        Demo84 demo84 = new Demo84();
+        /*Demo84 demo84 = new Demo84();
         System.out.println(demo84.getPalindrome1("AB"));
-        System.out.println(demo84.getPalindrome2("A1B21C","121"));
+        System.out.println(demo84.getPalindrome2("A1B21C","121"));*/
+
+
+        //括号字符串得有效性和最长有效长度
+        Demo85 demo85 = new Demo85();
+        System.out.println(demo85.isValid("()"));
+        System.out.println(demo85.isValid("(()())"));
+        System.out.println(demo85.isValid("(())"));
+        System.out.println(demo85.isValid("())"));
+        System.out.println(demo85.isValid("()("));
+        System.out.println(demo85.isValid("()a()"));
+        System.out.println(demo85.maxLength("(()())"));
+        System.out.println(demo85.maxLength("())"));
+        System.out.println(demo85.maxLength("()(()()("));
     }
 }
