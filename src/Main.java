@@ -885,7 +885,7 @@ public class Main {
 
 
         //括号字符串得有效性和最长有效长度
-        Demo85 demo85 = new Demo85();
+        /*Demo85 demo85 = new Demo85();
         System.out.println(demo85.isValid("()"));
         System.out.println(demo85.isValid("(()())"));
         System.out.println(demo85.isValid("(())"));
@@ -894,6 +894,13 @@ public class Main {
         System.out.println(demo85.isValid("()a()"));
         System.out.println(demo85.maxLength("(()())"));
         System.out.println(demo85.maxLength("())"));
-        System.out.println(demo85.maxLength("()(()()("));
+        System.out.println(demo85.maxLength("()(()()("));*/
+
+
+        //公式字符串求值
+        Demo86 demo86 = new Demo86();
+        System.out.println(demo86.getValue("48*((70-65)-43)+8*1"));
+        System.out.println(demo86.getValue("3+1*4"));
+        System.out.println(demo86.getValue("3+(1*4)"));
     }
 }
