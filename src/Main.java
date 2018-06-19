@@ -898,9 +898,26 @@ public class Main {
 
 
         //公式字符串求值
-        Demo86 demo86 = new Demo86();
+        /*Demo86 demo86 = new Demo86();
         System.out.println(demo86.getValue("48*((70-65)-43)+8*1"));
         System.out.println(demo86.getValue("3+1*4"));
-        System.out.println(demo86.getValue("3+(1*4)"));
+        System.out.println(demo86.getValue("3+(1*4)"));*/
+
+
+        //0左边必有1的二进制字符串数量
+        Demo87 demo87 = new Demo87();
+        System.out.println(demo87.getNum1(0));
+        System.out.println(demo87.getNum1(1));
+        System.out.println(demo87.getNum2(00));
+        System.out.println(demo87.getNum2(10));
+        System.out.println(demo87.getNum2(11));
+        System.out.println(demo87.getNum3(000));
+        System.out.println(demo87.getNum3(001));
+        System.out.println(demo87.getNum3(010));
+        System.out.println(demo87.getNum3(011));
+        System.out.println(demo87.getNum3(100));
+        System.out.println(demo87.getNum3(101));
+        System.out.println(demo87.getNum3(110));
+        System.out.println(demo87.getNum3(111));
     }
 }
