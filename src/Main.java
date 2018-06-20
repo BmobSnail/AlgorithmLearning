@@ -905,7 +905,7 @@ public class Main {
 
 
         //0左边必有1的二进制字符串数量
-        Demo87 demo87 = new Demo87();
+        /*Demo87 demo87 = new Demo87();
         System.out.println(demo87.getNum1(0));
         System.out.println(demo87.getNum1(1));
         System.out.println(demo87.getNum2(00));
@@ -918,6 +918,12 @@ public class Main {
         System.out.println(demo87.getNum3(100));
         System.out.println(demo87.getNum3(101));
         System.out.println(demo87.getNum3(110));
-        System.out.println(demo87.getNum3(111));
+        System.out.println(demo87.getNum3(111));*/
+
+
+        //拼接所有字符串产生字典顺序最小的大写字符串
+        Demo88 demo88 = new Demo88();
+        System.out.println(demo88.lowestString(new String[]{"abc","de"}));
+        System.out.println(demo88.lowestString(new String[]{"b","ba"}));
     }
 }
