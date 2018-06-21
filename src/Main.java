@@ -922,8 +922,21 @@ public class Main {
 
 
         //拼接所有字符串产生字典顺序最小的大写字符串
-        Demo88 demo88 = new Demo88();
+        /*Demo88 demo88 = new Demo88();
         System.out.println(demo88.lowestString(new String[]{"abc","de"}));
-        System.out.println(demo88.lowestString(new String[]{"b","ba"}));
+        System.out.println(demo88.lowestString(new String[]{"b","ba"}));*/
+
+
+        //找到字符串的最长无重复字符子串
+        /*Demo89 demo89 = new Demo89();
+        System.out.println(demo89.maxUnique("abcd"));
+        System.out.println(demo89.maxUnique("aabcb"));*/
+
+
+        //找到被指的新类型字符
+        /*Demo90 demo90 = new Demo90();
+        System.out.println(demo90.pointNewchar("aaABCDEcBCg",7));
+        System.out.println(demo90.pointNewchar("aaABCDEcBCg",4));
+        System.out.println(demo90.pointNewchar("aaABCDEcBCg",10));*/
     }
 }
