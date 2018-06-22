@@ -938,5 +938,11 @@ public class Main {
         System.out.println(demo90.pointNewchar("aaABCDEcBCg",7));
         System.out.println(demo90.pointNewchar("aaABCDEcBCg",4));
         System.out.println(demo90.pointNewchar("aaABCDEcBCg",10));*/
+
+
+        //最小包含子串的长度
+        Demo91 demo91 = new Demo91();
+        System.out.println(demo91.minLength("abcde","ac"));
+        System.out.println(demo91.minLength("12345","344"));
     }
 }
