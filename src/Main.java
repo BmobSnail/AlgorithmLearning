@@ -941,8 +941,22 @@ public class Main {
 
 
         //最小包含子串的长度
-        Demo91 demo91 = new Demo91();
+        /*Demo91 demo91 = new Demo91();
         System.out.println(demo91.minLength("abcde","ac"));
-        System.out.println(demo91.minLength("12345","344"));
+        System.out.println(demo91.minLength("12345","344"));*/
+
+
+        //最小回文切割次数
+        /*Demo92 demo92 = new Demo92();
+        System.out.println(demo92.munCut("ABA"));
+        System.out.println(demo92.munCut("ACDCDCDAD"));*/
+
+
+        //字符串匹配问题
+        Demo93 demo93 = new Demo93();
+        System.out.println(demo93.isMatch1("abc","abc"));
+        System.out.println(demo93.isMatch1("abc","a.c"));
+        System.out.println(demo93.isMatch1("abcd",".*"));
+        System.out.println(demo93.isMatch1("","..*"));
     }
 }
