@@ -954,9 +954,18 @@ public class Main {
 
         //字符串匹配问题
         Demo93 demo93 = new Demo93();
+        System.out.println(System.currentTimeMillis());
         System.out.println(demo93.isMatch1("abc","abc"));
         System.out.println(demo93.isMatch1("abc","a.c"));
         System.out.println(demo93.isMatch1("abcd",".*"));
         System.out.println(demo93.isMatch1("","..*"));
+        System.out.println(System.currentTimeMillis());
+
+        System.out.println(System.currentTimeMillis());
+        System.out.println(demo93.isMatchDP("abc","abc"));
+        System.out.println(demo93.isMatchDP("abc","a.c"));
+        System.out.println(demo93.isMatchDP("abcd",".*"));
+        System.out.println(demo93.isMatchDP("","..*"));
+        System.out.println(System.currentTimeMillis());
     }
 }
