@@ -953,7 +953,7 @@ public class Main {
 
 
         //字符串匹配问题
-        Demo93 demo93 = new Demo93();
+        /*Demo93 demo93 = new Demo93();
         System.out.println(System.currentTimeMillis());
         System.out.println(demo93.isMatch1("abc","abc"));
         System.out.println(demo93.isMatch1("abc","a.c"));
@@ -966,6 +966,20 @@ public class Main {
         System.out.println(demo93.isMatchDP("abc","a.c"));
         System.out.println(demo93.isMatchDP("abcd",".*"));
         System.out.println(demo93.isMatchDP("","..*"));
-        System.out.println(System.currentTimeMillis());
+        System.out.println(System.currentTimeMillis());*/
+
+
+        //字典树(前缀树)的实现
+        Demo94 demo94 = new Demo94();
+        demo94.inSert("abc");
+        demo94.inSert("abcd");
+        demo94.inSert("abd");
+        demo94.inSert("b");
+        demo94.inSert("bcd");
+        demo94.inSert("efg");
+        demo94.inSert("hik");
+        System.out.println(demo94.search("abc"));
+        System.out.println(demo94.search("ac"));
+        System.out.println(demo94.prefixNumber("d"));
     }
 }
