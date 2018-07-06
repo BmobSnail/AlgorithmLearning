@@ -3,6 +3,8 @@ import part_2.*;
 import part_3.*;
 import part_4.*;
 import part_5.*;
+import part_6.Demo95;
+import part_6.Demo96;
 
 public class Main {
 
@@ -970,7 +972,7 @@ public class Main {
 
 
         //字典树(前缀树)的实现
-        Demo94 demo94 = new Demo94();
+        /*Demo94 demo94 = new Demo94();
         demo94.inSert("abc");
         demo94.inSert("abcd");
         demo94.inSert("abd");
@@ -980,6 +982,20 @@ public class Main {
         demo94.inSert("hik");
         System.out.println(demo94.search("abc"));
         System.out.println(demo94.search("ac"));
-        System.out.println(demo94.prefixNumber("d"));
+        System.out.println(demo94.prefixNumber("d"));*/
+
+
+        //不用额外变量交换两个数
+        /*int a = 2;
+        int b = 4;
+        Demo95 demo95 = new Demo95();
+        demo95.swap(a,b);*/
+
+
+        //不用判断找出两个数中较大数
+        /*int a = 2;
+        int b = 4;
+        Demo96 demo96 = new Demo96();
+        System.out.println(demo96.getMax1(a,b));*/
     }
 }
