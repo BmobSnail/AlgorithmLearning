@@ -5,6 +5,7 @@ import part_4.*;
 import part_5.*;
 import part_6.Demo95;
 import part_6.Demo96;
+import part_6.Demo97;
 
 public class Main {
 
@@ -997,5 +998,14 @@ public class Main {
         int b = 4;
         Demo96 demo96 = new Demo96();
         System.out.println(demo96.getMax1(a,b));*/
+
+
+        //位运算实现加减乘除
+        Demo97 demo97 = new Demo97();
+        System.out.println(demo97.add(1,2));
+        System.out.println(demo97.minus(1,2));
+        System.out.println(demo97.div(1,2));
+        System.out.println(demo97.divide(1,2));
+        System.out.println(demo97.multi(1,2));
     }
 }
