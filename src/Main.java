@@ -3,9 +3,7 @@ import part_2.*;
 import part_3.*;
 import part_4.*;
 import part_5.*;
-import part_6.Demo95;
-import part_6.Demo96;
-import part_6.Demo97;
+import part_6.*;
 
 public class Main {
 
@@ -1001,11 +999,33 @@ public class Main {
 
 
         //位运算实现加减乘除
-        Demo97 demo97 = new Demo97();
+        /*Demo97 demo97 = new Demo97();
         System.out.println(demo97.add(1,2));
         System.out.println(demo97.minus(1,2));
         System.out.println(demo97.div(1,2));
         System.out.println(demo97.divide(1,2));
-        System.out.println(demo97.multi(1,2));
+        System.out.println(demo97.multi(1,2));*/
+
+
+        //^ & ~ >> << 运算符
+        /*System.out.println("^:"+(1^2));
+        System.out.println("&:"+(1&2));
+        System.out.println("~:"+(~1));
+        System.out.println(">>:"+(1>>2));
+        System.out.println("<<:"+(1<<2));*/
+
+
+        //整数的二进制表达中又多少个1
+        /*Demo98 demo98 = new Demo98();
+        System.out.println(demo98.count1(1));
+        System.out.println(demo98.count2(1));
+        System.out.println(demo98.count3(1));
+        System.out.println(demo98.count4(1));*/
+
+        //在其它数都出现偶数次的数组中找到出现奇数次的数
+        Demo99 demo99 = new Demo99();
+        int [] arr = {3,2,4,1,1,2,3};
+        demo99.printOddTimesNum1(arr);
+        demo99.printOddTimesNum2(arr);
     }
 }
