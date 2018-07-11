@@ -1022,10 +1022,17 @@ public class Main {
         System.out.println(demo98.count3(1));
         System.out.println(demo98.count4(1));*/
 
+
         //在其它数都出现偶数次的数组中找到出现奇数次的数
-        Demo99 demo99 = new Demo99();
+        /*Demo99 demo99 = new Demo99();
         int [] arr = {3,2,4,1,1,2,3};
         demo99.printOddTimesNum1(arr);
-        demo99.printOddTimesNum2(arr);
+        demo99.printOddTimesNum2(arr);*/
+
+
+        //在其他数都出现k次的数组中找到只出现一次的数
+        /*Demo100 demo100 = new Demo100();
+        int[] arr = {1,1,2,3,3,5,6,7,4,5,6,7};
+        System.out.println(demo100.onceNum(arr,7));*/
     }
 }
