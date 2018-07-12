@@ -4,6 +4,7 @@ import part_3.*;
 import part_4.*;
 import part_5.*;
 import part_6.*;
+import part_7.Demo101;
 
 public class Main {
 
@@ -1034,5 +1035,11 @@ public class Main {
         /*Demo100 demo100 = new Demo100();
         int[] arr = {1,1,2,3,3,5,6,7,4,5,6,7};
         System.out.println(demo100.onceNum(arr,7));*/
+
+
+        //转圈打印矩阵
+        Demo101 demo101 = new Demo101();
+        int[][] arr = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+        demo101.spiralOrderPrint(arr);
     }
 }
