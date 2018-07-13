@@ -5,6 +5,7 @@ import part_4.*;
 import part_5.*;
 import part_6.*;
 import part_7.Demo101;
+import part_7.Demo102;
 
 public class Main {
 
@@ -1038,8 +1039,20 @@ public class Main {
 
 
         //转圈打印矩阵
-        Demo101 demo101 = new Demo101();
+        /*Demo101 demo101 = new Demo101();
         int[][] arr = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
-        demo101.spiralOrderPrint(arr);
+        demo101.spiralOrderPrint(arr);*/
+
+
+        //将矩阵旋转90°
+        /*Demo102 demo102 = new Demo102();
+        int[][] arr = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+        demo102.rotate(arr);
+        for (int[] anArr : arr) {
+            for (int anAnArr : anArr) {
+                System.out.print(anAnArr + "\u3000");
+            }
+            System.out.println();
+        }*/
     }
 }
