@@ -6,6 +6,7 @@ import part_5.*;
 import part_6.*;
 import part_7.Demo101;
 import part_7.Demo102;
+import part_7.Demo103;
 
 public class Main {
 
@@ -1054,5 +1055,11 @@ public class Main {
             }
             System.out.println();
         }*/
+
+
+        //之字形打印矩阵
+        Demo103 demo103 = new Demo103();
+        int[][] arr = {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
+        demo103.printMatrixZigZag(arr);
     }
 }
