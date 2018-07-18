@@ -7,6 +7,7 @@ import part_6.*;
 import part_7.Demo101;
 import part_7.Demo102;
 import part_7.Demo103;
+import part_7.Demo104;
 
 public class Main {
 
@@ -1058,8 +1059,17 @@ public class Main {
 
 
         //之字形打印矩阵
-        Demo103 demo103 = new Demo103();
+        /*Demo103 demo103 = new Demo103();
         int[][] arr = {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
-        demo103.printMatrixZigZag(arr);
+        demo103.printMatrixZigZag(arr);*/
+
+
+        //在无序数组中找到最小的k个数
+        Demo104 demo104 = new Demo104();
+        int[] arr = {64,894,13,5,89,7,98,1,31,5,987,94,132,4,546,13,5};
+        int[] results = demo104.getMinKNumsByHeap(arr,3);
+        for (int result : results) {
+            System.out.println(result);
+        }
     }
 }
