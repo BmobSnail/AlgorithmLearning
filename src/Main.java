@@ -4,10 +4,7 @@ import part_3.*;
 import part_4.*;
 import part_5.*;
 import part_6.*;
-import part_7.Demo101;
-import part_7.Demo102;
-import part_7.Demo103;
-import part_7.Demo104;
+import part_7.*;
 
 public class Main {
 
@@ -1065,11 +1062,24 @@ public class Main {
 
 
         //在无序数组中找到最小的k个数
-        Demo104 demo104 = new Demo104();
+        /*Demo104 demo104 = new Demo104();
         int[] arr = {64,894,13,5,89,7,98,1,31,5,987,94,132,4,546,13,5};
         int[] results = demo104.getMinKNumsByHeap(arr,3);
         for (int result : results) {
             System.out.println(result);
-        }
+        }*/
+
+
+        //需要排序的最短子数组长度
+        /*Demo105 demo105 = new Demo105();
+        int[] arr = {1,5,3,4,2,6,7};
+        System.out.println(demo105.getMinLength(arr));*/
+
+
+        //在数组中找到出现次数大于N/K的数
+        /*Demo106 demo106 = new Demo106();
+        int[] arr = {1,1,3,5,6,7,8,6,4,2,3,4,6,1,2,0,2,5,6,3,1,5,7,4,1,2,3};
+        demo106.printKMajor(arr,3);*/
+
     }
 }
