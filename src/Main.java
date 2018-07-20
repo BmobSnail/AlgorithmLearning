@@ -1081,5 +1081,12 @@ public class Main {
         int[] arr = {1,1,3,5,6,7,8,6,4,2,3,4,6,1,2,0,2,5,6,3,1,5,7,4,1,2,3};
         demo106.printKMajor(arr,3);*/
 
+
+        //在行列都排好序的矩阵中找数
+        /*Demo107 demo107 = new Demo107();
+        int[][] arr = {{0,1,2,5},{2,3,4,7},{4,4,4,8},{5,7,7,9}};
+        boolean has = demo107.isContains(arr,6);
+        System.out.println(has);*/
+
     }
 }
