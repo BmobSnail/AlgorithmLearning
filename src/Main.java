@@ -1088,5 +1088,11 @@ public class Main {
         boolean has = demo107.isContains(arr,6);
         System.out.println(has);*/
 
+
+        //最长的可整合子数组得长度
+        Demo108 demo108 = new Demo108();
+        int[] arr = {5,3,4,2,6};
+        System.out.println("len:"+demo108.getLIL1(arr));
+        System.out.println("len:"+demo108.getLIL2(arr));
     }
 }
