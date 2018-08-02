@@ -1090,9 +1090,17 @@ public class Main {
 
 
         //最长的可整合子数组得长度
-        Demo108 demo108 = new Demo108();
+        /*Demo108 demo108 = new Demo108();
         int[] arr = {5,3,4,2,6};
         System.out.println("len:"+demo108.getLIL1(arr));
-        System.out.println("len:"+demo108.getLIL2(arr));
+        System.out.println("len:"+demo108.getLIL2(arr));*/
+
+
+        //不重复打印排序数组种相加和为给定值的所有二元组和三元组
+        Demo109 demo109 = new Demo109();
+        int[] arr = {-8,-4,-3,0,1,2,3,4,5,8,9};
+        demo109.printUniquePair(arr,10);
+        System.out.println();
+        demo109.printUniqueTriad(arr,10);
     }
 }
