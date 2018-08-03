@@ -1097,10 +1097,16 @@ public class Main {
 
 
         //不重复打印排序数组种相加和为给定值的所有二元组和三元组
-        Demo109 demo109 = new Demo109();
+        /*Demo109 demo109 = new Demo109();
         int[] arr = {-8,-4,-3,0,1,2,3,4,5,8,9};
         demo109.printUniquePair(arr,10);
         System.out.println();
-        demo109.printUniqueTriad(arr,10);
+        demo109.printUniqueTriad(arr,10);*/
+
+
+        //未排序正数数组中累加和为给定值的最长子数组长度
+        Demo110 demo110 = new Demo110();
+        int[] arr = {1,2,1,1,1};
+        System.out.println("len:"+demo110.getMaxLength(arr,3));
     }
 }
