@@ -1105,8 +1105,14 @@ public class Main {
 
 
         //未排序正数数组中累加和为给定值的最长子数组长度
-        Demo110 demo110 = new Demo110();
+        /*Demo110 demo110 = new Demo110();
         int[] arr = {1,2,1,1,1};
-        System.out.println("len:"+demo110.getMaxLength(arr,3));
+        System.out.println("len:"+demo110.getMaxLength(arr,3));*/
+
+
+        //未排序数组中累加和为给定值的最长子数组系列问题
+        Demo111 demo111 = new Demo111();
+        int[] arr = {1,2,3,3};
+        System.out.println("len:"+demo111.maxLength(arr,6));
     }
 }
