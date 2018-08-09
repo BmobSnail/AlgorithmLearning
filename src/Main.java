@@ -1117,8 +1117,14 @@ public class Main {
 
 
         //未排序数组中累加和小于或等于给定值的最长子数组长度
-        Demo112 demo112 = new Demo112();
+        /*Demo112 demo112 = new Demo112();
         int[] arr = {3,-2,4,0,6};
-        System.out.println("len="+demo112.maxLength(arr,2));
+        System.out.println("len="+demo112.maxLength(arr,2));*/
+
+
+        //计算数组的小和
+        Demo113 demo113 = new Demo113();
+        int[] arr = {1,3,5,2,4,6};
+        System.out.println(demo113.getSmallSum(arr));
     }
 }
