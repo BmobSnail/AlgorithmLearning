@@ -1123,8 +1123,23 @@ public class Main {
 
 
         //计算数组的小和
-        Demo113 demo113 = new Demo113();
+        /*Demo113 demo113 = new Demo113();
         int[] arr = {1,3,5,2,4,6};
-        System.out.println(demo113.getSmallSum(arr));
+        System.out.println(demo113.getSmallSum(arr));*/
+
+
+        //自然数数组排序
+        Demo114 demo114 = new Demo114();
+        int[] arr1 = {1,2,5,3,4};
+        int[] arr2 = {1,2,5,3,4};
+        demo114.sort1(arr1);
+        for (int anArr1 : arr1) {
+            System.out.print(anArr1+",");
+        }
+        System.out.println();
+        demo114.sort2(arr2);
+        for (int anArr2 : arr2) {
+            System.out.print(anArr2+",");
+        }
     }
 }
