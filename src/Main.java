@@ -1129,7 +1129,7 @@ public class Main {
 
 
         //自然数数组排序
-        Demo114 demo114 = new Demo114();
+        /*Demo114 demo114 = new Demo114();
         int[] arr1 = {1,2,5,3,4};
         int[] arr2 = {1,2,5,3,4};
         demo114.sort1(arr1);
@@ -1140,6 +1140,15 @@ public class Main {
         demo114.sort2(arr2);
         for (int anArr2 : arr2) {
             System.out.print(anArr2+",");
+        }*/
+
+
+        //奇数小标都是奇数或者偶数下标都是偶数
+        Demo115 demo115 = new Demo115();
+        int[] arr = {1,8,3,2,4,6};
+        demo115.modify(arr);
+        for (int num : arr) {
+            System.out.println(num);
         }
     }
 }
