@@ -1144,11 +1144,17 @@ public class Main {
 
 
         //奇数小标都是奇数或者偶数下标都是偶数
-        Demo115 demo115 = new Demo115();
+        /*Demo115 demo115 = new Demo115();
         int[] arr = {1,8,3,2,4,6};
         demo115.modify(arr);
         for (int num : arr) {
             System.out.println(num);
-        }
+        }*/
+
+
+        //子数组累加和最大
+        Demo116 demo116 = new Demo116();
+        int[] arr = {1,-2,3,5,-2,6,-1};
+        System.out.println("max="+demo116.maxSun(arr));
     }
 }
