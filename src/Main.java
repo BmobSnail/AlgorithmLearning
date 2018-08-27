@@ -1153,8 +1153,15 @@ public class Main {
 
 
         //子数组累加和最大
-        Demo116 demo116 = new Demo116();
+       /* Demo116 demo116 = new Demo116();
         int[] arr = {1,-2,3,5,-2,6,-1};
-        System.out.println("max="+demo116.maxSun(arr));
+        System.out.println("max="+demo116.maxSun(arr));*/
+
+
+       //子矩阵的最大累加和问题
+        Demo117 demo117 = new Demo117();
+        int[][] m = {{-90,48,78},{64,-40,64},{-81,-7,66}};
+        int max = demo117.maxSum(m);
+        System.out.println("matrix Max sum="+max);
     }
 }
