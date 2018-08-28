@@ -1159,9 +1159,16 @@ public class Main {
 
 
        //子矩阵的最大累加和问题
-        Demo117 demo117 = new Demo117();
+       /* Demo117 demo117 = new Demo117();
         int[][] m = {{-90,48,78},{64,-40,64},{-81,-7,66}};
         int max = demo117.maxSum(m);
-        System.out.println("matrix Max sum="+max);
+        System.out.println("matrix Max sum="+max);*/
+
+
+       //在数组中找到一个局部最小的位置
+        /*Demo118 demo118 = new Demo118();
+        int[] arr = {7,5,3,1,3,6,8};
+        int index = demo118.getLessIndex(arr);
+        System.out.println("the less limit:"+index);*/
     }
 }
