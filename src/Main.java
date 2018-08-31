@@ -1170,5 +1170,12 @@ public class Main {
         int[] arr = {7,5,3,1,3,6,8};
         int index = demo118.getLessIndex(arr);
         System.out.println("the less limit:"+index);*/
+
+
+        //数组中子数组的最大累乘积
+        Demo119 demo119 = new Demo119();
+        double[] arr = {-2.5,4,0,3,0.5,8,-1};
+        double max = demo119.maxProduct(arr);
+        System.out.println("Max="+max);
     }
 }
