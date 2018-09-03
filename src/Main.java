@@ -1173,9 +1173,15 @@ public class Main {
 
 
         //数组中子数组的最大累乘积
-        Demo119 demo119 = new Demo119();
+        /*Demo119 demo119 = new Demo119();
         double[] arr = {-2.5,4,0,3,0.5,8,-1};
         double max = demo119.maxProduct(arr);
-        System.out.println("Max="+max);
+        System.out.println("Max="+max);*/
+
+
+        //打印N个数组整体最大的Top K
+        Demo120 demo120 = new Demo120();
+        int[][] arr = new int[][]{{219,405,538,845,971},{148,558},{52,99,348,691}};
+        demo120.printTopK(arr,5);
     }
 }
