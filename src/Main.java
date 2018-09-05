@@ -1180,8 +1180,21 @@ public class Main {
 
 
         //打印N个数组整体最大的Top K
-        Demo120 demo120 = new Demo120();
+        /*Demo120 demo120 = new Demo120();
         int[][] arr = new int[][]{{219,405,538,845,971},{148,558},{52,99,348,691}};
-        demo120.printTopK(arr,5);
+        demo120.printTopK(arr,5);*/
+
+
+        //边界都是1的最大正方形大小
+        /*Demo121 demo121 = new Demo121();
+        int[][] arr = new int[][]{
+                {0,1,1,1,1},
+                {0,1,0,0,1},
+                {0,1,0,0,1},
+                {0,1,1,1,1},
+                {0,1,0,1,1}
+        };
+        int border = demo121.getMaxSize(arr);
+        System.out.println("The max border length:"+border);*/
     }
 }
