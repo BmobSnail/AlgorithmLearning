@@ -1196,5 +1196,18 @@ public class Main {
         };
         int border = demo121.getMaxSize(arr);
         System.out.println("The max border length:"+border);*/
+
+
+        //不包含本位置值得累乘数组
+        Demo122 demo122 = new Demo122();
+        int[] arr = new int[]{2,3,1,4};
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println("position["+i+"]="+arr[i]);
+        }
+        arr = demo122.product2(arr);
+        System.out.println("----------------------------");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println("position["+i+"]="+arr[i]);
+        }
     }
 }
