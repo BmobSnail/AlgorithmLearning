@@ -1199,7 +1199,7 @@ public class Main {
 
 
         //不包含本位置值得累乘数组
-        Demo122 demo122 = new Demo122();
+        /*Demo122 demo122 = new Demo122();
         int[] arr = new int[]{2,3,1,4};
         for (int i = 0; i < arr.length; i++) {
             System.out.println("position["+i+"]="+arr[i]);
@@ -1208,6 +1208,25 @@ public class Main {
         System.out.println("----------------------------");
         for (int i = 0; i < arr.length; i++) {
             System.out.println("position["+i+"]="+arr[i]);
+        }*/
+
+
+        //数组的partition调整
+        Demo123 demo123 = new Demo123();
+        int[] arr = new int[]{1,2,2,2,3,3,4,5,6,6,7,7,8,8,8,9};
+        System.out.println("The initial arr:");
+        for (int anArr : arr) {
+            System.out.print(anArr + ",");
+        }
+        demo123.leftUnique(arr);
+        System.out.println("\nThe left unqiue arr:");
+        for (int anArr : arr) {
+            System.out.print(anArr + ",");
+        }
+        demo123.sort(arr);
+        System.out.println("\nThe sort arr:");
+        for (int anArr : arr) {
+            System.out.print(anArr + ",");
         }
     }
 }
