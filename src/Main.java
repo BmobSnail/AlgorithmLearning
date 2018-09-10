@@ -1212,7 +1212,7 @@ public class Main {
 
 
         //数组的partition调整
-        Demo123 demo123 = new Demo123();
+        /*Demo123 demo123 = new Demo123();
         int[] arr = new int[]{1,2,2,2,3,3,4,5,6,6,7,7,8,8,8,9};
         System.out.println("The initial arr:");
         for (int anArr : arr) {
@@ -1227,6 +1227,18 @@ public class Main {
         System.out.println("\nThe sort arr:");
         for (int anArr : arr) {
             System.out.print(anArr + ",");
-        }
+        }*/
+
+
+        //求最短通路值
+        Demo124 demo124 = new Demo124();
+        int[][] matrix = new int[][]{
+                {1,0,1,1,1},
+                {1,0,1,0,1},
+                {1,1,1,0,1},
+                {0,0,0,0,1},
+        };
+        int path = demo124.minPathVaule(matrix);
+        System.out.println("The min path:"+path);
     }
 }
