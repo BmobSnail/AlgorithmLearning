@@ -1231,7 +1231,7 @@ public class Main {
 
 
         //求最短通路值
-        Demo124 demo124 = new Demo124();
+        /*Demo124 demo124 = new Demo124();
         int[][] matrix = new int[][]{
                 {1,0,1,1,1},
                 {1,0,1,0,1},
@@ -1239,6 +1239,13 @@ public class Main {
                 {0,0,0,0,1},
         };
         int path = demo124.minPathVaule(matrix);
-        System.out.println("The min path:"+path);
+        System.out.println("The min path:"+path);*/
+
+
+        //数组中未出现的最小正整数
+        Demo125 demo125 = new Demo125();
+        int[] arr = {-1,2,3,4};
+        int miss = demo125.missNum(arr);
+        System.out.println("miss:"+miss);
     }
 }
