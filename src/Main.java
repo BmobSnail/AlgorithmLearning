@@ -1243,9 +1243,16 @@ public class Main {
 
 
         //数组中未出现的最小正整数
-        Demo125 demo125 = new Demo125();
+       /* Demo125 demo125 = new Demo125();
         int[] arr = {-1,2,3,4};
         int miss = demo125.missNum(arr);
-        System.out.println("miss:"+miss);
+        System.out.println("miss:"+miss);*/
+
+
+       //数组排序之后相邻数的最大差值
+        /*Demo126 demo126 = new Demo126();
+        int[] arr = {9,1,3,10};
+        long gap = demo126.maxGap(arr);
+        System.out.println("Max gap:"+gap);*/
     }
 }
